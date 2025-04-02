@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Contacts App
+## 🎥 Demo
+Watch the app in action: [Demo Link](https://drive.google.com/file/d/1yQ77FA-HLNkj-FIyT68fn-Qhn3htnWiK/view?usp=sharing)
+## 📌 Project Overview
+The **Contacts App** is a simple and user-friendly contact management application that allows users to add, edit, delete, and search for contacts. It is built using **React.js** with **TypeScript** and provides a clean UI for managing contacts efficiently.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Features
+- 📝 **Add New Contacts**
+- ✏️ **Edit Existing Contacts**
+- ❌ **Delete Contacts**
+- 🔍 **Search Contacts**
+- ⭐ **Mark as Favorite**
+- 📱 **Responsive Design for Mobile & Desktop**
 
-## Available Scripts
+## 🛠️ Tech Stack
+- **Frontend:** React.js, TypeScript
+- **Styling:** CSS (Poppins Font for UI)
+- **State Management:** React Hooks
 
-In the project directory, you can run:
+## 📂 Folder Structure
+```
+contacts-app/
+│── src/
+│   ├── components/    # Reusable components
+│   ├── hooks/         # Custom hooks
+│   ├── pages/         # Application pages
+│   ├── styles/        # CSS styles
+│   ├── App.tsx        # Main component
+│   ├── index.tsx      # Entry point
+│── public/            # Static assets
+│── package.json       # Dependencies
+│── README.md          # Project documentation
+```
 
-### `npm start`
+## 🔧 Installation & Setup
+Follow these steps to set up the project locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/SubithaNaidu/S5_02_Apr_86cyetk20.git
+cd contacts-app
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
 
-### `npm test`
+### 3️⃣ Start the Development Server
+```sh
+npm start
+```
+This will run the app at `http://localhost:3000/`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📌 Contribution
+Feel free to fork this repository and contribute to improve the project! 😊
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📜 License
+This project is open-source and available under the [MIT License](LICENSE).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
