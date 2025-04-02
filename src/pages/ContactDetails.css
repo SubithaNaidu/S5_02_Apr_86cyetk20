@@ -1,0 +1,167 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f4f4f4;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .buttonGroup {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .edit {
+    background: #3498db;
+    color: white;
+  }
+  
+  .edit:hover {
+    background: #2980b9;
+  }
+  
+  .delete {
+    background: #e74c3c;
+    color: white;
+  }
+  
+  .delete:hover {
+    background: #c0392b;
+  }
+  
+  .back {
+    background: #95a5a6;
+    color: white;
+  }
+  
+  .back:hover {
+    background: #7f8c8d;
+  }
+  
+  .notFound {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+  }
+  /* ContactDetails.css */
+.contact-details-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f4f4f9;
+    padding: 20px;
+  }
+  
+  .contact-details-page h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 200%;
+    text-align: left;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info p strong {
+    min-width: 100px;
+    display: inline-block;
+    color: #333;
+  }
+  
+  /* Buttons */
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .btn-delete,
+  .btn-edit,
+  .btn-back {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .btn-delete {
+    background: #21014f;
+    color: rgb(255, 255, 255);
+  }
+  
+  .btn-delete:hover {
+    background: #c0392b;
+  }
+  
+  .btn-edit {
+    background: #21014f;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+  }
+  
+  .btn-edit:hover {
+    background: #2980b9;
+  }
+  
+  .btn-back {
+    background: #21014f;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+  }
+  
+  .btn-back:hover {
+    background: #27ae60;
+  }
+  
